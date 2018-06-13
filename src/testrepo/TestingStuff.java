@@ -4,7 +4,11 @@ public class TestingStuff {
 
 	public static void main(String[] args) 
 	{
-		System.out.println("Hey");
+		printSomething();
+	}
+	
+	public static void printSomething() {
+	  System.out.println("Hey.");
 	}
 
 }
